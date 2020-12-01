@@ -1,4 +1,6 @@
 @import url('css/main.css');
+@import url('css/learn.css');
+@import url('css/follow.css');
 
 /* HEADER */
 .header{
@@ -116,14 +118,7 @@
     display: grid;
     align-content: center;
 }
-.banner__title{
-    font-weight: bold;
-    font-size: 2.4rem;
-    line-height: 2.8rem;
-    color: #2B283A;
-    grid-column-start: 2;
-    margin: 0;
-}
+
 .banner__link{
     height: 4.1rem;
     background: #3D2B99;
