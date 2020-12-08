@@ -33,6 +33,9 @@
     letter-spacing: 0.115em;
     color: #252525;
 }
+.burger__wrap {
+    display: none;
+}
 .menu__list{
     margin: 0;
     padding: 0;
@@ -302,8 +305,11 @@
 .students__title {
     margin-bottom: 10rem;
 }
+.students__link-left {
+    margin-right: 3rem;
+}
 .students__review {
-    height: 29.9rem;
+    min-height: 29.9rem;
     background: #FFFFFF;
     box-shadow: 0px 0px 2.8rem rgba(0, 0, 0, 0.1);
     border-radius: .8rem;
@@ -318,6 +324,12 @@
     left: calc(50% - 5.85rem);
     top: -20%;
 }
+.students__review-text::before {
+    content: url(img/quotes-top.svg);
+    position: absolute;
+    top: -3rem;
+    left: 0;
+}
 .students__review-text {
     font-style: italic;
     font-weight: normal;
@@ -325,6 +337,15 @@
     line-height: 19px;
     color: #404040;
     text-align: center;
+    position: relative;
+    margin-bottom: 3.4rem;
+    margin-top: 10rem;
+}
+.students__review-text::after {
+    content: url(img/quotes-bottom.svg);
+    position: absolute;
+    right: 0;
+    bottom: -3rem;
 }
 .students__carousel-inner{
     overflow: visible;
@@ -483,5 +504,169 @@
     .container{
         max-width: 1170px;
         padding: 0;
+    }
+    .burger__wrap {
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .main-block__background {
+        right: -5rem;
+    }
+    .main-block__img1 {
+        right: 50rem;
+    }
+    .main-block__img2 {
+        bottom: 8rem;
+        right: 5rem;
+    }
+    .main-block__title {
+        font-size: 5rem;
+    }
+    .banner__img {
+        left: -2rem;
+    }
+    .learn__card-img {
+        right: -5rem;
+    }
+    .learn__button {
+        font-size: 1.2rem;
+    }
+    .students__title {
+        margin-bottom: 5rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    .burger__wrap {
+        display: block;
+    }
+    .burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        height: 4.5rem;
+        width: 8rem;
+        position: relative;
+    }
+    .burger__line {
+        height: 3px;
+        width: 100%;
+        background: #2B283A;
+    }
+    .burger__line-top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: top 1s 1s ease, transform 1s ease;
+    }
+    .burger__line-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: bottom 1s 1s ease, tranform 1s ease;
+    }
+    .burger__line-middle {
+        transition: opacity 1s ease;
+    }
+    .burger__cross .burger__line-top {
+        transform: rotate(45deg);
+        top: calc(50% - 1.92px);
+        transition: top 1s ease, transform 1s 1s ease;
+    }
+    .burger__cross .burger__line-bottom {
+        transform: rotate(-45deg);
+        bottom: calc(50% - 1.92px);
+        transition: bottom 1s ease, tranform 1s 1s ease;
+    }
+    .burger__cross .burger__line-middle {
+        opacity: 0;
+    }
+    .header__menu {
+        display: none;
+    }
+    .main-block__background {
+        right: -20rem;
+        top: -22rem;
+    }
+    .main-block__img1 {
+        right: 32rem;
+        top: 12rem;
+    }
+    .learn__info {
+        text-align: center;
+    }
+    .teachers__photo{
+        width: 10rem;
+        height: 10rem;
+}
+}
+@media screen and (max-width: 767px) {
+    :root {
+        font-size: 9px;
+    }
+    .main-block__background {
+        right: -28rem;
+        top: -18rem;
+    }
+    .main-block__img1 {
+        right: 21rem;
+        top: 10rem;
+    }
+    .main-block__img2 {
+        bottom: 2rem;
+        right: 1rem;
+    }
+    .follow {
+        margin-bottom: 3rem;
+    }
+    .students__title {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .students__arrows {
+        margin-bottom: 7rem;
+    }
+    .students__link-left {
+        margin-right: 10rem;
+    }
+    .teachers__photo {
+        height: 8rem;
+        width: 8rem;
+    }
+    .subscribe {
+        margin-top: 2rem;
+    }
+    .footer__contacts {
+        margin-bottom: 3rem;
+    }
+    .footer__title {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px){
+    :root {
+        font-size: 8px;
+    }
+    .container {
+        width: 360px;
+    }
+    .main-block__background {
+        right: -33rem;
+        top: -14rem;
+    }
+    .main-block__title {
+        font-size: 4rem;
+        margin-bottom: 3rem;
+    }
+    .banner__title {
+        text-align: center;
+    }
+    .teachers__img {
+        background-size: 108px auto;
+    }
+    .teachers__photo {
+        height: 7rem;
+        width: 7rem;
     }
 }
