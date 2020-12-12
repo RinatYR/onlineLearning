@@ -1,0 +1,84 @@
+.learn{
+    margin-top: 11rem;
+}
+
+.learn__wrap{
+     height: 35rem; 
+}
+
+
+.subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: var(--font-bold);
+    font-size: 4.2rem;
+    line-height: 4.9rem;
+    color: var(--deep-blue);
+    margin: 0;
+    padding: 0;
+}
+
+.title-m{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: var(--font-bold);
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    color: var(--deep-blue);
+    margin: 0;
+    padding: 0;
+}
+
+.title-s{
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #2B283A;
+    grid-column-start: 2;
+    margin: 0;
+}
+
+
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: var(--font-regular);
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: var(--light-grey);
+    margin: 0;
+    padding: 0;
+}
+
+ .text-white{
+    color: var(--white);
+} 
+
+.learn-text-block{
+    margin-top: 3.2rem;
+}
+
+.learn__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.daily__classes{
+     background: url('../img/learn__books.jpg') no-repeat;   
+}
+
+.practice{
+    background: url('../img/learn_laptop.jpg') no-repeat;
+}
+
+
+.button-learn{
+    width: 50%;
+    transform: translateY(55px);
+}
+
+.learn__card .title-m.text-white{
+margin-bottom: 3rem;
+}
