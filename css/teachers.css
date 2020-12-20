@@ -1,0 +1,48 @@
+
+
+
+.teachers__background{
+    width: 100%;
+    height: 23.7rem;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.teachers__title{
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 4.9rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.teachers__container{
+    padding-top: 5rem;
+}
+
+
+
+.teachers__photo{
+    width: 11.7rem;
+    height: 11.7rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.teachers__name{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #2B283A;
+    text-align: center;
+}
+
+.teachers__position{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #777777;
+    text-align: center;
+}
+

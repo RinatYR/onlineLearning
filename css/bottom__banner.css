@@ -1,0 +1,43 @@
+
+.bottom__banner-background{
+    background: linear-gradient(90.06deg, #FE6201 0.05%, #ED4B7C 99.94%);
+    border-radius: .8rem;
+    height: 17.2rem;
+}
+
+.bottom__banner-title{
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    color: #FFFFFF;
+}
+
+.subscribe__input{
+    height: 5rem;
+    background: transparent;
+    border-radius: 2.4rem;
+    padding: 0 2.5rem;
+}
+
+.subscribe__input::placeholder{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #EBEBEB;
+}
+
+.subscribe-btn{
+    height: 5rem;
+    width: 5rem;
+    border: none;
+    background: #fff;
+    border-radius: 100%;
+    right: 0;
+    top: 0;
+}
+
+.bottom__banner{
+    position: relative;
+    top: 6rem;
+    margin-top: 8rem;
+}

@@ -1,49 +1,47 @@
 :root{
     font-size: 10px;
-    --deep-blue:#2B283A;
-    --light-grey:#797979;
-    --white: #FFFFFF;
-    --font-thin: 100;
-    --font-extra-light: 200;
-    --font-light: 300;
-    --font-regular: 400;
-    --font-medium: 500;
-    --font-semi-bold: 600;
-    --font-bold: 700;
-    --font-extra-bold: 800;
-    --font-black: 900;
+    
 }
+
+
 body{
     margin: 0;
     font-family: 'Roboto';
 }
+
+
+
 .button{
     height: 4rem;
     background: linear-gradient(90.08deg, #FE6201 0.05%, #ED4B7C 99.92%);
-    box-shadow: 0px .4rem .4rem rgba(254, 98, 1, 0.3);
+    box-shadow: 0px 4px 4px rgba(254, 98, 1, 0.3);
     border-radius: 2.4rem;
     display: grid;
     justify-items: center;
     align-items: center;
+    font-style: normal;
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 1.9rem;
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
+    border: 1px solid transparent;
     transition: background-color 0.6s ease, color 0.6s ease;
 }
+
 .button:hover{
-    text-decoration: none;
-    color: #FE6201;
+    color:  #FE6201;
     background: transparent;
     border: 1px solid #FE6201;
+    text-decoration: none;
 }
-.title-h3 {
-    margin: 0;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 4.2rem;
-    line-height: 4.9rem;
-    color: #2B283A;
+
+.points{
+    background-image: url('../img/points.svg');
+    background-repeat: no-repeat;
+    width: 13.5rem;
+    height: 13.3rem;
+    position: absolute;
+    z-index: -2;
 }

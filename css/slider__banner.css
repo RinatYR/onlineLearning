@@ -1,0 +1,108 @@
+.slider__banner{
+   margin-bottom: 9.1rem;
+}
+
+.slider__banner-title{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    color: #2B283A;
+}
+
+.arrows__container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.arrows__block{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-top: 10rem;
+}
+
+.slider__arrow{
+    width: 5rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+   /* background-image: url('img/slider_arrow_left.svg');*/
+    background-color: #FE6201;
+    box-shadow: 0px 4px 4px rgba(254, 98, 1, 0.3);
+    border: 1px solid transparent;
+    border-radius: 24px;
+    transition: background-color .6s ease;
+}
+
+.slider__arrow:hover{
+    background-color: purple;
+    border: 1px solid #FE6201;
+    transition: background-color .6s ease;
+}
+
+.slider_banner-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.student-images{
+    position: absolute;
+    top: -20%;
+    left: 40%;
+}
+
+.student-img{
+    width: 11.7rem;
+    height: 11.7rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.student__points{
+    left: 310%;
+    top: 0;
+}
+
+.about__text-block{
+    text-align: center;
+}
+
+.about-text{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 19px;
+    color: #404040;
+}
+
+.about-text::before{
+    content: "";
+    height: 2.4rem;
+    background-image: url('../img/quotes-top.svg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    width: 100%;
+    display: inline-block;
+}
+
+.about-text::after{
+    content: "";
+    height: 2.4rem;
+    background-image: url('../img/quotes-bottom.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center right;
+    display: inline-block
+}
+
+.name_of_student{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: end;
+    color: #000000;
+}

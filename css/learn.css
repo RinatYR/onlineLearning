@@ -1,84 +1,76 @@
-.learn{
-    margin-top: 11rem;
+
+.learn-block_container{
+    margin-top: 10.7rem;
+    margin-bottom: 17rem;
 }
 
-.learn__wrap{
-     height: 35rem; 
-}
-
-
-.subtitle{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: var(--font-bold);
+.learn-block__title{
+    font-weight: 700;
     font-size: 4.2rem;
     line-height: 4.9rem;
-    color: var(--deep-blue);
-    margin: 0;
-    padding: 0;
-}
-
-.title-m{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: var(--font-bold);
-    font-size: 2.8rem;
-    line-height: 3.3rem;
-    color: var(--deep-blue);
-    margin: 0;
-    padding: 0;
-}
-
-.title-s{
-    font-weight: bold;
-    font-size: 2.4rem;
-    line-height: 2.8rem;
     color: #2B283A;
-    grid-column-start: 2;
-    margin: 0;
 }
 
-
-.text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: var(--font-regular);
+.learn-block__text{
     font-size: 1.8rem;
     line-height: 2.1rem;
-    color: var(--light-grey);
-    margin: 0;
-    padding: 0;
-}
-
- .text-white{
-    color: var(--white);
-} 
-
-.learn-text-block{
-    margin-top: 3.2rem;
+    color: #797979;
 }
 
 .learn__card{
+    height: 29.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    background-size: cover;
+    position: relative;
 }
 
-.daily__classes{
-     background: url('../img/learn__books.jpg') no-repeat;   
+.learn__card-img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 
-.practice{
-    background: url('../img/learn_laptop.jpg') no-repeat;
+.learn__card__text-block{
+    position: absolute;
+    padding: 1rem;
 }
 
 
-.button-learn{
+.learn__card-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3.1rem;
+}
+
+.learn__card-text{
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #F2F2F2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3.1rem;
+}
+
+.learn__button{
     width: 50%;
-    transform: translateY(55px);
+    position: absolute;
+    bottom: 0;
+    transform: translateY(1.8rem);
 }
 
-.learn__card .title-m.text-white{
-margin-bottom: 3rem;
+.learn__points{
+    top: 22rem;
+    left: 29rem;
+    z-index: -1;
 }
